@@ -13,6 +13,7 @@ public class WordCount {
     public static void main(String[] args) {
 
         if (args.length < 2) {
+
             System.err.println("Usage: WordCountTask <input> <output>");
             System.exit(1);
         }
