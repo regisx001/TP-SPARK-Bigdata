@@ -1,0 +1,61 @@
+# ===== Maven =====
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# ===== Java =====
+
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== Spark Output =====
+
+out/
+output/
+*.count/
+
+# ===== Logs =====
+
+*.log
+logs/
+
+# ===== IDE =====
+
+# IntelliJ
+
+.idea/
+*.iml
+
+# VS Code
+
+.vscode/
+
+# Eclipse
+
+.project
+.classpath
+.settings/
+
+# ===== OS Files =====
+
+.DS_Store
+Thumbs.db
+
+# ===== Temporary Files =====
+
+tmp/
+temp/
+*.tmp
+*.swp
+
+# ===== Hadoop / Spark Temp =====
+
+metastore_db/
+spark-warehouse/
